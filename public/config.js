@@ -39,12 +39,12 @@ window.Config = {
   // 导航栏菜单
   Navi: [
     {
-      text: 'Homepage',
-      url: 'https://status.org.cn/'
+      text: 'Tigefa',
+      url: 'https://tigefa.win/'
     },
     {
       text: 'GitHub',
-      url: 'https://github.com/yb/uptime-status'
+      url: 'https://github.com/tigefa4u/uptime-status'
     }
   ]
 };

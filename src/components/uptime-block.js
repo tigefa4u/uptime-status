@@ -6,7 +6,7 @@ const UptimeBlock = (props) => {
   const { data } = props;
   const { status, text } = useMemo(() => {
     let status = '';
-    let text = data.date.format('YYYY-MM-DD');
+    let text = data.date.format('DD-MM-YYYY');
     if (data.uptime >= 100) {
       status = 'ok';
       text += ` 可用率 ${fixed(data.uptime)}%`;

@@ -5,7 +5,7 @@ window.Config = {
   SiteName: 'Uptime Status',
 
   // 站点链接
-  SiteUrl: '/',
+  SiteUrl: 'https://sugeng.win/',
 
   // UptimeRobot Api 域名
   // 只需填写域名部分，默认为官网域名
@@ -26,6 +26,11 @@ window.Config = {
     'm791178160-c90ee4c874eb09886b9fbbab',
     'm791178163-966ebbe9186ca6420d65a1c1',
     'm790417318-8d895849b5c5e92c930dfc17',
+    'm791178179-51fe9021ef475d3a9416d7c8',
+    'm790916285-59db2084776ecc66610180b3',
+    'm790940509-eeb0527b0d139544fb4154d4',
+    'm790348925-e54d5857df35b8c3856d7e47',
+    'm790294991-9b82a2ac3607cba5324d5cad',
   ],
 
   // 是否显示监测站点的链接

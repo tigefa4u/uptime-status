@@ -50,6 +50,10 @@ window.Config = {
     {
       text: 'GitHub',
       url: 'https://github.com/tigefa4u/uptime-status'
+    },
+    {
+      text: 'Twitter',
+      url: 'https://twitter.com/sugengtigefa'
     }
   ]
 };

@@ -14,7 +14,7 @@
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
-    "publish": "wrangler build && wrangler publish"
+    "publish": "npx @cloudflare/wrangler build && npx @cloudflare/wrangler publish"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -32,8 +32,7 @@
     ]
   },
   "devDependencies": {
-    "react-app-rewired": "^2.1.8",
-    "wrangler": "^0.0.26"
+    "react-app-rewired": "^2.1.8"
   },
   "homepage": "https://sugeng.win/"
 }

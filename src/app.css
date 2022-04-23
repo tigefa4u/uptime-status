@@ -9,8 +9,8 @@
 }
 
 body {
-  background: #F6F8FA url(./assets/background.png) center top;
-  color: #3F4347;
+  background: #0b1116 url(./assets/background.png) center top;
+  color: #e5e8eb;
   font-size: 12px;
   font-family: sans-serif;
   line-height: 1;
@@ -40,9 +40,9 @@ a {
   top: 0;
   left: 0;
   right: 0;
-  background: #FFF;
+  background: rgb(66, 66, 66);
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.05);
-  border-bottom: 1px solid #E3E4E6;
+  border-bottom: 1px solid #3f3f3f;
   z-index: 10;
 }
 
@@ -75,8 +75,8 @@ a {
 
 
 #uptime {
-  background: #FFF;
-  border: 1px solid #E3E4E6;
+  background: rgb(8, 8, 8);
+  border: 1px solid #202020;
   border-radius: 5px;
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.05);
   overflow: hidden;
@@ -84,7 +84,7 @@ a {
 
 #uptime .item {
   padding: 18px 20px;
-  border-bottom: 1px solid #E7E8E9;
+  border-bottom: 1px solid #19191a;
 }
 
 #uptime .item:last-child {
@@ -97,7 +97,7 @@ a {
 }
 
 #uptime .item:hover {
-  background-color: #FFFDF5;
+  background-color: #242424;
 }
 
 #uptime .meta {
@@ -171,15 +171,15 @@ a {
 }
 
 #uptime .timeline i.ok {
-  background: #9FD8AC;
+  background: #13680b;
 }
 
 #uptime .timeline i.none {
-  background: #F3F3F3;
+  background: #706b6b;
 }
 
 #uptime .timeline i.down {
-  background: #F29571;
+  background: #c20d0d;
 }
 
 #uptime .tooltip {

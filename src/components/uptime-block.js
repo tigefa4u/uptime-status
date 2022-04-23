@@ -13,7 +13,7 @@ const UptimeBlock = (props) => {
     }
     else if (data.uptime <= 0 && data.down.times === 0) {
       status = 'none';
-      text += 'no data';
+      text += ' no data';
     }
     else {
       status = 'down';

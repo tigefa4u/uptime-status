@@ -21,4 +21,5 @@ yarn-error.log*
 wrangler.toml
 dist
 workers-site/*
-/test/docker
+/test
+/docker

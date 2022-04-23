@@ -31,7 +31,8 @@
     ]
   },
   "devDependencies": {
-    "react-app-rewired": "^2.1.8"
+    "react-app-rewired": "^2.1.8",
+    "wrangler": "^0.0.26"
   },
-  "homepage": "./"
+  "homepage": "https://sugeng.win/"
 }

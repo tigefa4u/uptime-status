@@ -56,7 +56,7 @@ a {
 #header .logo {
   font-size: 18px;
   font-weight: bold;
-  color: #319848;
+  color: #a3be8c;
 }
 
 #header .navi {
@@ -70,7 +70,7 @@ a {
 }
 
 #header .navi a:hover {
-  color: #4B9B5D;
+  color: #a3be8c;
 }
 
 
@@ -204,6 +204,6 @@ a {
 }
 
 #footer a {
-  color: #58AD6A;
+  color: #a3be8c;
   font-weight: bold;
 }

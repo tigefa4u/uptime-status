@@ -9,7 +9,7 @@
 }
 
 body {
-  background: #0b1116 url(./assets/background.png) center top;
+  background: #2e3440 url(./assets/background.png) center top;
   color: #e5e8eb;
   font-size: 12px;
   font-family: sans-serif;
@@ -40,7 +40,7 @@ a {
   top: 0;
   left: 0;
   right: 0;
-  background: rgb(66, 66, 66);
+  background: #2e3440;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.05);
   border-bottom: 1px solid #3f3f3f;
   z-index: 10;
@@ -75,8 +75,8 @@ a {
 
 
 #uptime {
-  background: rgb(8, 8, 8);
-  border: 1px solid #202020;
+  background: #2e3440;
+  border: 1px solid #4c566a;
   border-radius: 5px;
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.05);
   overflow: hidden;
@@ -84,7 +84,7 @@ a {
 
 #uptime .item {
   padding: 18px 20px;
-  border-bottom: 1px solid #19191a;
+  border-bottom: 1px solid #2e3440;
 }
 
 #uptime .item:last-child {
@@ -97,7 +97,7 @@ a {
 }
 
 #uptime .item:hover {
-  background-color: #242424;
+  background-color: #4c566a;
 }
 
 #uptime .meta {
@@ -115,7 +115,7 @@ a {
 #uptime .meta .name {
   font-size: 16px;
   line-height: 20px;
-  color: #5A606B;
+  color: #d8dee9;
 }
 
 #uptime .meta .link {
@@ -140,17 +140,17 @@ a {
 
 #uptime .meta .status.ok {
   background-image: url(./assets/success.svg);
-  color: #28A745;
+  color: #a3be8c;
 }
 
 #uptime .meta .status.down {
   background-image: url(./assets/fail.svg);
-  color: #D9534F;
+  color: #bf616a;
 }
 
 #uptime .meta .status.unknow {
   background-image: url(./assets/question.svg);
-  color: #6A737D;
+  color: #ebcb8b;
 }
 
 #uptime .timeline {
@@ -171,15 +171,15 @@ a {
 }
 
 #uptime .timeline i.ok {
-  background: #13680b;
+  background: #a3be8c;
 }
 
 #uptime .timeline i.none {
-  background: #706b6b;
+  background: #ebcb8b;
 }
 
 #uptime .timeline i.down {
-  background: #c20d0d;
+  background: #bf616a;
 }
 
 #uptime .tooltip {
@@ -192,14 +192,14 @@ a {
   display: flex;
   justify-content: space-between;
   line-height: 15px;
-  color: #999FA6;
+  color: #d8dee9;
 }
 
 #footer {
   text-align: center;
   font-size: 12px;
   line-height: 1.8;
-  color: #999FA6;
+  color: #d8dee9;
   padding: 20px 0px;
 }
 
